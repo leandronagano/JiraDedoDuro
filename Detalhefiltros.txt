@@ -1,0 +1,57 @@
+Velocidade - Sem time
+32412
+createdDate >= 2021-03-01 AND issuetype = Epic AND status not in (Identificado, Cancelada) AND cf[10214] is EMPTY
+Velocidade - Histórias sem time
+32419
+status not in ("Product Backlog", Cancelada) AND issuetype in (Story, "New Feature", Improvement, "Non Functional Task", Bug, "Legacy Bug", Requirement) AND cf[10214] is EMPTY
+Velocidade - Épico iniciado, com status Identificado
+32413
+issueFunction in epicsOf("issuetype = story and statusCategory != 'To Do'") AND status = Identificado AND createdDate >= startOfYear()
+Velocidade - épico pode mover para Em execução
+32416
+createdDate >= 2021-03-01 AND issuetype = epic AND status in (Identificado, Priorizado, "Em Descoberta", Descoberto) AND issueFunction in epicsOf("issuetype = Story and status not in ('Product Backlog','Selecionado para Grooming','Em Análise','Análise Realizada','Pronta para Desenvolvimento',Cancelada)")
+Velocidade - épico pode mover para Executado
+32417
+createdDate >= 2021-03-01 AND issueFunction not in epicsOf("status not in (Homologada,'Em deploy para produção','Em Produção',Ativada,Cancelada)") AND status not in (Executado, "Em Medição", Validado, Invalidado, Cancelada) AND issueFunction in epicsOf("summary is not EMPTY")
+Velocidade - épico pode mover para Em Medição
+32418
+createdDate >= 2021-03-01 AND issueFunction not in epicsOf("status not in ('Em produção', Ativada,Cancelada)") AND status not in ("Em Medição", Cancelada, Validado, Invalidado) AND issueFunction in epicsOf("summary is not EMPTY")
+Velocidade - História pode mover para Em Desenvolvimento
+32420
+createdDate >= 2021-03-01 AND issuetype in (Story, "Non Functional Task", Improvement) AND issueFunction in parentsOf("status not in ('A Fazer', Cancelada) and issuetype in (Sub-Imp)") AND status in ("A Fazer", "Product Backlog", "Selecionado para Grooming", "Em Análise", "Solução Técnica Definida", "Análise Realizada", "Pronta para Desenvolvimento")
+Velocidade - História pode mover para Desenvolvido
+32421
+createdDate >= 2021-03-01 AND issuetype in (Story) AND status in ("Em Desenvolvimento", "Pronta para Desenvolvimento", "Em Análise", "Selecionado para Grooming", "Product Backlog") AND issueFunction in parentsOf("issuetype = Sub-Imp and status = Finalizado") AND issueFunction not in parentsOf("issuetype = Sub-Imp and status != Finalizado")
+Velocidade - História pode mover para Testada
+32422
+createdDate >= 2021-03-01 AND issuetype in (Story) AND status in ("Product Backlog", "Selecionado para Grooming", "Em Análise", "Análise realizada", "Pronta para Desenvolvimento", "Em Desenvolvimento", Desenvolvida, "Em deploy para teste", "Em teste") AND issueFunction in parentsOf("(issuetype in (Sub-Imp,Sub-Test) and status = Finalizado) or (issuetype = Sub-Bug and 'Development Phase' = DEV and status = Finalizado)") AND issueFunction not in parentsOf("(issuetype in (Sub-Imp,Sub-Test) and status != Finalizado) or (issuetype = Sub-Bug and 'Development Phase' = DEV and status != Finalizado)")
+Velocidade - História pode mover para Homologada
+32423
+createdDate >= 2021-03-01 AND issuetype in (Story) AND status in ("Product Backlog", "Selecionado para Grooming", "Em Análise", "Análise realizada", "Pronta para Desenvolvimento", "Em Desenvolvimento", Desenvolvida, "Em deploy para teste", "Em teste", Testada, "Em deploy para homologação", "Em homologação") AND issueFunction in parentsOf("(issuetype in (Sub-Imp,Sub-Test) and status = Finalizado) or (issuetype = Sub-Bug and 'Development Phase' = UAT and status = Finalizado)") AND issueFunction not in parentsOf("(issuetype in (Sub-Imp,Sub-Test) and status != Finalizado) or (issuetype = Sub-Bug and 'Development Phase' = UAT and status != Finalizado)")
+Eficiencia - Geral sem APF preenchido
+32427
+createdDate >= 2021-03-01 AND status not in ("Product Backlog", Open, Cancelada, "Selecionado para Grooming", "Em Análise", "Análise Realizada") AND issuetype in (Story) AND "Pontos de Função" is EMPTY AND "Complexity Points" is EMPTY
+Eficiencia - Potential sem APF preenchido
+32428
+createdDate >= 2021-03-01 AND status in (Testada, "Em deploy para homologação", "Em homologação", Homologada, "Em deploy para produção") AND issuetype in (Story) AND "Pontos de Função" is EMPTY AND "Complexity Points" is EMPTY
+Eficiencia - Activated sem APF preenchido
+32429
+createdDate >= 2021-03-01 AND status in ("Em Produção", Ativada) AND issuetype in (Story) AND "Pontos de Função" is EMPTY AND "Complexity Points" is EMPTY
+Qualidade - Defeitos sem time
+32432
+createdDate >= 2021-03-01 AND issuetype in (bug, Sub-Bug) AND cf[10214] is EMPTY AND status not in (Cancelada)
+Qualidade - Issues BURN sem time preenchido
+32437
+createdDate >= 2021-03-01 AND filter = JiraBurn AND cf[10214] is EMPTY AND timespent > 0
+Qualidade - Defeitos sem fase preenchido
+32433
+createdDate >= 2021-03-01 AND issuetype in (bug, Sub-Bug) AND "Development Phase" is EMPTY AND status not in (Cancelada)
+Qualidade - Historias sem APF
+32434
+createdDate >= 2021-03-01 AND status not in ("Product Backlog", Open, Cancelada, "Selecionado para Grooming", "Em Análise", "Análise Realizada") AND issuetype in (Story) AND "Pontos de Função" is EMPTY AND "Complexity Points" is EMPTY
+Qualidade - Defeitos sem horas logadas
+32435
+createdDate >= 2021-03-01 AND issuetype in (Sub-Bug, "Sub-Legacy Bug", bug, "Legacy Bug") AND status in (Finalizado, "Em produção", Ativada) AND issueFunction not in hasSubtasks() AND (timespent = 0 OR timespent is EMPTY)
+Qualidade - Burn sem log de horas
+32436
+createdDate >= 2021-03-01 AND filter = JiraBurn AND originalEstimate > 0 AND (timespent is EMPTY OR timespent = 0) AND statusCategory = Done AND createdDate >= startOfYear() AND status not in (cancelado, Cancelada) AND issuetype in subTaskIssueTypes()
