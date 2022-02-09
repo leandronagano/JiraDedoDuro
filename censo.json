@@ -1,0 +1,892 @@
+{
+    "vilas": [
+        {
+            "name": "Alta Renda",
+            "vs": [
+                {
+                    "name": "ASSESSORIA E RECOMENDAÇÃO DE INVESTIMENTOS",
+                    "project": "ARARI",
+                    "squads": [
+                        {
+                            "name": "MOSCOU",
+                            "filtro": "project = ARARI And cf[10214] ~ MOSCOU",
+                            "isReferencia": true
+                        },
+                        {
+                            "name": "RIO",
+                            "filtro": "project = ARARI And cf[10214] ~ RIO",
+                            "isReferencia": true
+                        }
+
+                    ]
+                },
+                {
+                    "name": "POSIÇÃO DE EVOLUÇÃO DA CARTEIRA DE INVESTIMENTOS",
+                    "project": "ARPOS",
+                    "squads": [
+                        {
+                            "name": "SPARTANS",
+                            "filtro": "project = ARPOS And cf[10214] ~ SPARTANS",
+                            "isReferencia": true
+                        },
+                        {
+                            "name": "PANDORA",
+                            "filtro": "project = ARPOS And cf[10214] ~ PANDORA",
+                            "isReferencia": true
+                        }
+                    ]
+                },
+                {
+                    "name": "HABILITAÇÃO DE PRODUTOS NOS CANAIS",
+                    "project": "ARINV",
+                    "squads": [
+                        {
+                            "name": "BERLIM",
+                            "filtro": "project = ARINV And cf[10214] ~ BERLIM",
+                            "isReferencia": true
+                        },
+                        {
+                            "name": "TOQUIO",
+                            "filtro": "project = ARINV And cf[10214] ~ TOQUIO",
+                            "isReferencia": true
+                        },
+                        {
+                            "name": "COSMO",
+                            "filtro": "project = ARINV And cf[10214] ~ COSMO",
+                            "isReferencia": true
+                        }
+                    ]
+                },
+                {
+                    "name": "PRIVATE | OFERTA DIGITAL",
+                    "project": "PVTOD",
+                    "squads": [
+                        {
+                            "name": "BLUE",
+                            "filtro": "project = PVTOD And cf[10214] ~ BLUE",
+                            "isReferencia": true
+                        },
+                        {
+                            "name": "DELTA",
+                            "filtro": "project = PVTOD And cf[10214] ~ DELTA",
+                            "isReferencia": true
+                        }
+                    ]
+                },
+                {
+                    "name": "Relacionamento Prime",
+                    "project": "ARBKR",
+                    "squads": [
+                        {
+                            "name": "Oslo",
+                            "filtro": "project = ARBKR and cf[10214] ~ Oslo",
+                            "isReferencia": true
+                        },
+                        {
+                            "name": "Maldivas",
+                            "filtro": "project = ARBKR and cf[10214] ~ Maldivas",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Sampa",
+                            "filtro": "project = ARBKR and cf[10214] ~ Sampa",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Pitbull",
+                            "filtro": "project = ARBKR and cf[10214] ~ Pitbull",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Apollo",
+                            "filtro": "project = ARBKR and cf[10214] ~ Apollo",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "ASSESSORIA PRIME",
+                    "project": "ARASP",
+                    "squads": [
+                        {
+                            "name": "Aguia",
+                            "filtro": "project = ARASP and cf[10214]  ~ Aguia",
+                            "isReferencia": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "WIN - WHOLESALE INTELLIGENCE",
+            "vs": [
+                {
+                    "name": "WIN - WHOLESALE INTELLIGENCE",
+                    "project": "ATCDOHAB",
+                    "squads": [
+                        {
+                            "name": "Dados",
+                            "filtro": "project = ATCDOHAB And cf[10214] ~ Dados",
+                            "isReferencia": true
+                        },
+                        {
+                            "name": "Analytics",
+                            "filtro": "project = ATCDOHAB And cf[10214] ~ Analytics",
+                            "isReferencia": true
+                        }
+                        ,
+                        {
+                            "name": "Integração",
+                            "filtro": "project = ATCDOHAB And cf[10214] ~ Integracao",
+                            "isReferencia": true
+                        }
+                    ]
+                },
+                {
+                    "name": "WIN - WHOLESALE INTELLIGENCE",
+                    "project": "ATCDO",
+                    "squads": [
+                        {
+                            "name": "Indicadores",
+                            "filtro": "project = ATCDO And cf[10214] ~ Indicadores",
+                            "isReferencia": true
+                        }
+                    ]
+                },
+                {
+                    "name": "WIN - WHOLESALE INTELLIGENCE",
+                    "project": "ATCDOJND",
+                    "squads": [
+                        {
+                            "name": "JornadaRE",
+                            "filtro": "project = ATCDOJND And cf[10214] ~ JORNADARE",
+                            "isReferencia": true
+                        },
+                        {
+                            "name": "JornadaRM",
+                            "filtro": "project = ATCDOJND And cf[10214] ~ JornadaRM",
+                            "isReferencia": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SALA DE CREDITO",
+            "vs": [
+                {
+                    "name": "SALA DE CREDITO",
+                    "project": "CREDA",
+                    "squads": [
+                        {
+                            "name": "NEWTON",
+                            "filtro": "project = CREDA And cf[10214] ~ NEWTON",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "MICHELANGELO",
+                            "filtro": "project = CREDA And cf[10214] ~ MICHELANGELO",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Gauss",
+                            "filtro": "project = CREDA And cf[10214] ~ Gauss",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Turing",
+                            "filtro": "project = CREDA And cf[10214] ~ Turing",
+                            "isReferencia": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "BGS -BRADESCO GLOBAL SOLUTIONS",
+            "vs": [
+                {
+                    "name": "BGS -BRADESCO GLOBAL SOLUTIONS",
+                    "project": "BGSAT",
+                    "squads": [
+                        {
+                            "name": "automacao",
+                            "filtro": "project = BGSAT And cf[10214] ~ automacao",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "integracao",
+                            "filtro": "project = BGSAT And cf[10214] ~ integracao",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Setup",
+                            "filtro": "project = BGSAT And cf[10214] ~ Setup",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Recebimentos",
+                            "filtro": "project = BGSAT And cf[10214] ~ Recebimentos",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Pagamentos",
+                            "filtro": "project = BGSAT And cf[10214] ~ Pagamentos",
+                            "isReferencia": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "BBF",
+            "vs": [
+                {
+                    "name": "BBF - VEÍCULOS",
+                    "project": "BBFDIG",
+                    "squads": [
+                        {
+                            "name": "Relampago McQueen",
+                            "filtro": "project = BBFDIG And cf[10214] ~ 'Relampago McQueen'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Ghost Rider",
+                            "filtro": "project = BBFDIG And cf[10214] ~ 'Ghost Rider'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Sherlock",
+                            "filtro": "project = BBFDIG And cf[10214] ~ Sherlock",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Bumblebee",
+                            "filtro": "project = BBFDIG And cf[10214] ~ Bumblebee",
+                            "isReferencia": true
+                        }
+                    ]
+                },
+                {
+                    "name": "BBF - CONSIGNADO",
+                    "project": "BBFCON",
+                    "squads": [
+                        
+                        {
+                            "name": "Woody",
+                            "filtro": "project = BBFCON And cf[10214] ~ Woody",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "BuzzLightyear",
+                            "filtro": "project = BBFCON And cf[10214] ~ BuzzLightyear",
+                            "isReferencia": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CARTÕES",
+            "vs": [
+                {
+                    "name": "AQUISIÇÕES",
+                    "project": "VLCRT",
+                    "squads": [
+                        {
+                            "name": "SATURNO",
+                            "filtro": "project = VLCRT And cf[10214] ~ SATURNO",
+                            "isReferencia": true
+                        },
+                        {
+                            "name": "THUNDERA",
+                            "filtro": "project = VLCRT And cf[10214] ~ THUNDERA",
+                            "isReferencia": true
+                        },
+                        {
+                            "name": "ASGARD",
+                            "filtro": "project = VLCRT And cf[10214] ~ ASGARD",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "KRYPTON",
+                            "filtro": "project = VLCRT And cf[10214] ~ KRYPTON and created >= '2021-10-01'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "VÊNUS",
+                            "filtro": "project = VLCRT and filter=34517",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "AQUISIÇÕES",
+                    "project": "VSCPJ",
+                    "squads": [
+                        {
+                            "name": "JUPITER",
+                            "filtro": "project = VSCPJ And cf[10214] ~ JUPITER",
+                            "isReferencia": false
+                        }
+                    ]
+                }
+                ,
+                {
+                    "name": "PAGAMENTOS DIGITAIS",
+                    "project": "PGTDG",
+                    "squads": [
+                        {
+                            "name": "VENOM",
+                            "filtro": "project = PGTDG And cf[10214] ~ VENOM and created >= '2021-08-01'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "JOKER",
+                            "filtro": "project = PGTDG And cf[10214] ~ JOKER and created >= '2021-08-01'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "MALÉVOLA",
+                            "filtro": "project = PGTDG And filter=34516",
+                            "isReferencia": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MORADIA",
+            "vs": [
+                {
+                    "name": "COMPRAR - INOVAÇÃO E REESTRUTURAÇÃO",
+                    "project": "MORCIR",
+                    "squads": [
+                        {
+                            "name": "VS_CIR-EFICIENCIA_LEGADO",
+                            "filtro": "project = MORCIR And cf[10214] ~ VS_CIR-EFICIENCIA_LEGADO",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "VS_CIR-ATENDIMENTO_A_REGULACAO",
+                            "filtro": "project = MORCIR And cf[10214] ~ VS_CIR-ATENDIMENTO_A_REGULACAO",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "VS_CIR-TOMADA_DECISAO",
+                            "filtro": "project = MORCIR And cf[10214] ~ 'VS_CIR-TOMADA_DECISAO'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "VS_CIR-CONTRATACAO_B2C",
+                            "filtro": "project = MORCIR And cf[10214] ~ 'VS_CIR-CONTRATACAO_B2C'",
+                            "isReferencia": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "OPEN BANKING",
+            "vs": [
+                {
+                    "name": "CICLO API",
+                    "project": "OPBAN5",
+                    "squads": [
+                        {
+                            "name": "APIS NÃO REGULATÓRIA",
+                            "filtro": "project = OPBAN5 And cf[10214] ~ 'VS_CA-APIS_NAO_REGULATORIAS'",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "GEERENCIADOR FINANCEIRO",
+                    "project": "OPBAN9",
+                    "squads": [
+                        {
+                            "name": "CORE_PJ_Contas",
+                            "filtro": "project = OPBAN9 And cf[10214] ~ 'VS_GF-CORE_PJ_Contas'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "CORE_PF_Visão_Geral",
+                            "filtro": "project = OPBAN9 And filter = 37442",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "CORE_PF_Contas",
+                            "filtro": "project = OPBAN9 And cf[10214] ~ 'VS_GF-CORE_PF_Contas'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "CORE_PF_Cartões",
+                            "filtro": "project = OPBAN9 And filter = 37441",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "NET-CORE_PJ_Cartoes",
+                            "filtro": "project = OPBAN9 And cf[10214] ~ 'VS_GF-NET-CORE_PJ_Cartoes'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "NET-CORE_PJ_OP_Cred",
+                            "filtro": "project = OPBAN9 And cf[10214] ~ 'VS_GF-NET-CORE_PJ_OP_Cred'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "NET-CORE_PJ_OP_Cred",
+                            "filtro": "project = OPBAN9 And cf[10214] ~ 'VS_GF-NET-CORE_PJ_OP_Cred'",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "VS HABILITADORES",
+                    "project": "OPBAN3",
+                    "squads": [
+                        {
+                            "name": "BI",
+                            "filtro": "project = OPBAN3 And cf[10214] ~ 'VS_HB-BI'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "ANALYTICS",
+                            "filtro": "project = OPBAN3 And cf[10214] ~ 'VS_HB-ADVANCED_ANALYTICS'",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Fase 3",
+                    "project": "OPBAN11",
+                    "squads": [
+                        {
+                            "name": "AUTH PF PIX",
+                            "filtro": "project = OPBAN11 And cf[10214] ~ 'VS_CON_AUTH_PF_PIX'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "AUTH PJ PIX",
+                            "filtro": "project = OPBAN11 And cf[10214] ~ 'VS_CON_AUTH_PJ_PIX'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "FORN PIX",
+                            "filtro": "project = OPBAN11 And cf[10214] ~ 'VS_FD_FORN_PIX'",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "FORNECIMENTO DE DADOS",
+                    "project": "OPBAN4",
+                    "squads": [
+                        {
+                            "name": "FD_SQUAD1",
+                            "filtro": "project = OPBAN4 And cf[10214] ~ 'FD_SQUAD1' and created >= '2021-10-01'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "FD_SQUAD2",
+                            "filtro": "project = OPBAN4 And cf[10214] ~ 'FD_SQUAD2' and created >= '2021-10-01'",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "CONSENTIMENTO",
+                    "project": "OPBAN3",
+                    "squads": [
+                        {
+                            "name": "CONSENTIMENTO_FORNECIMENTO",
+                            "filtro": "project = OPBAN3 And cf[10214] ~ 'CONSENTIMENTO_FORNECIMENTO' and created >= '2021-11-29'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "CONSENTIMENTO_RECEBIMENTO",
+                            "filtro": "project = OPBAN3 And cf[10214] ~ 'CONSENTIMENTO_RECEBIMENTO' and created >= '2021-11-29'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "VS_CON-AUTENTICACAO_PF_PJ",
+                            "filtro": "project = OPBAN3 And cf[10214] ~ 'VS_CON-AUTENTICACAO_PF_PJ' and created >= '2021-11-29'",
+                            "isReferencia": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "PISTA DE ARQUITETURA",
+            "vs": [
+                {
+                    "name": "TÉCNICA",
+                    "project": "PTARQ",
+                    "squads": [
+                        {
+                            "name": "ESTRUTURAIS TÉCNICOS",
+                            "filtro": "project = PTARQ And filter=34521",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "NEGOCIAÇÃO",
+                    "project": "PANEG",
+                    "squads": [
+                        {
+                            "name": "SONIC",
+                            "filtro": "project = PANEG And cf[10214] ~ SONIC",
+                            "isReferencia": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SALA DE TECNOLOGIA",
+            "vs": [
+                {
+                    "name": "PIPELINE",
+                    "project": "SLPPL",
+                    "squads": [
+                        {
+                            "name": "VS_PIP-PIPELINE_4",
+                            "filtro": "project = SLPPL And cf[10214] ~ VS_PIP-PIPELINE_4",
+                            "isReferencia": true
+                        },
+                        {
+                            "name": "VS_PIP-PIPELINE_5",
+                            "filtro": "project = SLPPL And cf[10214] ~ VS_PIP-PIPELINE_5",
+                            "isReferencia": true
+                        }
+                    ]
+                },
+                {
+                    "name": "SETUP",
+                    "project": "SLSTP",
+                    "squads": [
+                        {
+                            "name": "VS_SET-ANALYTICS",
+                            "filtro": "project = SLSTP And cf[10214] ~ VS_SET-ANALYTICS",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "VS_SET-SEGURANCA",
+                            "filtro": "project = SLSTP And cf[10214] ~ VS_SET-SEGURANCA",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "VS_SET-FERRAMENTAS_CI_CD",
+                            "filtro": "project = SLSTP And cf[10214] ~ VS_SET-FERRAMENTAS_CI_CD",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "VS_SET-GOVERNANCA_DEVSECOPS",
+                            "filtro": "project = SLSTP And cf[10214] ~ VS_SET-GOVERNANCA_DEVSECOPS",
+                            "isReferencia": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CRM 2.0",
+            "vs": [
+                {
+                    "name": "EXPERIÊNCIA DO CLIENTE",
+                    "project": "CRMCLI",
+                    "squads": [
+                        {
+                            "name": "Evolucao",
+                            "filtro": "project = CRMCLI And cf[10214] ~ 'Evolucao'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Midias",
+                            "filtro": "project = CRMCLI And cf[10214] ~ 'Midias'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Mobile",
+                            "filtro": "project = CRMCLI And cf[10214] ~ 'Mobile'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "INTEGRA_IB",
+                            "filtro": "project = CRMCLI And cf[10214] ~ 'INTEGRA_IB'",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "EXPERIÊNCIA DO GERENTE",
+                    "project": "CRMGER",
+                    "squads": [
+                        {
+                            "name": "SMARTDis",
+                            "filtro": "project = CRMGER And cf[10214] ~ 'SMARTDis'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "SMARTEnt",
+                            "filtro": "project = CRMGER And cf[10214] ~ 'SMARTEnt'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "INTEGRA_SMART",
+                            "filtro": "project = CRMGER And cf[10214] ~ 'INTEGRA_SMART'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "GESTAO_DA_CARTEIRA",
+                            "filtro": "project = CRMGER And cf[10214] ~ 'GESTAO_DA_CARTEIRA'",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "GESTÃO OPERACIONAL",
+                    "project": "CRMOPR",
+                    "squads": [
+                        {
+                            "name": "Workflow",
+                            "filtro": "project = CRMOPR And cf[10214] ~ 'Workflow'",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "MELHORIA CONTÍNUA",
+                    "project": "CRMMEL",
+                    "squads": [
+                        {
+                            "name": "Push",
+                            "filtro": "project = CRMMEL And cf[10214] ~ 'Push'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Sustentacao",
+                            "filtro": "project = CRMMEL And cf[10214] ~ 'Sustentacao'",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "PAPEL CROSS (CRM 2.0)",
+                    "project": "CRMCROS",
+                    "squads": [
+                        {
+                            "name": "BI_CRM",
+                            "filtro": "project = CRMCROS And cf[10214] ~ 'BI_CRM'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Dados",
+                            "filtro": "project = CRMCROS And cf[10214] ~ 'Dados'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Integração de dados",
+                            "filtro": "project = CRMCROS And cf[10214] ~ 'integracaodedados'",
+                            "isReferencia": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MOBILE",
+            "vs": [
+                {
+                    "name": "ABERTURA DE CONTAS",
+                    "project": "BCPFADC",
+                    "squads": [
+                        {
+                            "name": "Eficiência Operacional",
+                            "filtro": "project = BCPFADC And filter = 37434",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Jornada",
+                            "filtro": "project = BCPFADC And cf[10214] ~ 'Jornada'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Produtos e Serviços",
+                            "filtro": "project = BCPFADC And filter = 37435",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Acessos e Perfil",
+                    "project": "MBPFPRACE",
+                    "squads": [
+                        {
+                            "name": "Dispositivos de Acesso",
+                            "filtro": "project = MBPFPRACE And cf[10214] ~ 'Dispositivos de Acesso'",
+                            "isReferencia": true
+                        },
+                        {
+                            "name": "Usabilidade & Personalização",
+                            "filtro": "project = MBPFPRACE And filter= 37390",
+                            "isReferencia": true
+                        },
+                        {
+                            "name": "Login",
+                            "filtro": "project = MBPFPRACE And cf[10214] ~ 'Login'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Perfil",
+                            "filtro": "project = MBPFPRACE And cf[10214] ~ 'Perfil'",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Benefícios e Parcerias",
+                    "project": "MBPFRELAC",
+                    "squads": [
+                        {
+                            "name": "Parcerias ESG",
+                            "filtro": "project = MBPFRELAC And cf[10214] ~ 'Parcerias ESG'",
+                            "isReferencia": true
+                        },
+                        {
+                            "name": "Benefícios",
+                            "filtro": "project = MBPFRELAC And filter= 37432",
+                            "isReferencia": true
+                        },
+                        {
+                            "name": "Gestão de Parcerias",
+                            "filtro": "project = MBPFRELAC And filter= 37402",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Atendimento",
+                            "filtro": "project = MBPFRELAC And cf[10214] ~ 'Atendimento'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Notificações",
+                            "filtro": "project = MBPFRELAC And filter= 37403",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Mobile Nativo",
+                    "project": "MBPFNAT",
+                    "squads": [
+                        {
+                            "name": "Sustentação",
+                            "filtro": "project = MBPFNAT And filter= 37405",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Modularização",
+                            "filtro": "project = MBPFNAT And filter= 37406",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Plataforma Nativa",
+                            "filtro": "project = MBPFNAT And cf[10214] ~ 'Plataforma Nativa'",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Plataforma de Tecnologia",
+                    "project": "MBPFHABIL",
+                    "squads": [
+                        {
+                            "name": "Migração Cloud Estrutural",
+                            "filtro": "project = MBPFHABIL And filter= 37404",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Produtos",
+                    "project": "MBPFOBDIN",
+                    "squads": [
+                        {
+                            "name": "Cadastro",
+                            "filtro": "project = MBPFOBDIN And cf[10214] ~ 'Cadastro'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Cartão de Débito",
+                            "filtro": "project = MBPFOBDIN And filter= 37391",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Câmbio",
+                            "filtro": "project = MBPFOBDIN And filter= 37396",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Não Correntista",
+                            "filtro": "project = MBPFOBDIN And filter= 37399",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Cartão de Crédito",
+                            "filtro": "project = MBPFOBDIN And filter= 37400",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Cartão de Crédito Aquisição",
+                            "filtro": "project = MBPFOBDIN And filter= 37401",
+                            "isReferencia": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Transacionais",
+                    "project": "MBPFMODIN",
+                    "squads": [
+                        {
+                            "name": "PIX Regulatório",
+                            "filtro": "project = MBPFMODIN And filter= 37392",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "PIX 2.0",
+                            "filtro": "project = MBPFMODIN And cf[10214] ~ 'PIX 2.0'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "PIX Segregação",
+                            "filtro": "project = MBPFMODIN And filter= 37394",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Transferência",
+                            "filtro": "project = MBPFMODIN And filter= 37395",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Transações 2.0",
+                            "filtro": "project = MBPFMODIN And filter= 37397",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Pagamentos",
+                            "filtro": "project = MBPFMODIN And cf[10214] ~ 'Pagamentos'",
+                            "isReferencia": false
+                        },
+                        {
+                            "name": "Novos Serviços",
+                            "filtro": "project = MBPFMODIN And filter= 37398",
+                            "isReferencia": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
